@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Members</title>
+    <!-- CSS style link -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Google lnter line -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    />
+    <!-- Font-awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="team-member">
+        <!-- Header Section -->
+        <div class="header">
+          <i class="fa-solid fa-users icon"></i>
+          <p class="title">Add team members</p>
+          <p class="description">
+            You haven't added any team members to your project yet. As the owner
+            of this project, you can manage team member permissions.
+          </p>
+        </div>
+        <!-- Input Section -->
+        <form class="form-container">
+          <input type="email" placeholder="Enter an email" class="input" />
+          <button class="btn">Send invite</button>
+        </form>
+        <!-- Body Section -->
+        <div class="body-container">
+          <div class="team">
+            <p>Team members previously added to projects</p>
+          </div>
+          <div class="profile-container">
+            <!-- first person -->
+            <div class="team">
+              <div class="profile">
+                <img src="./Lindsay.jpg" alt="Lindsay walton" class="img" />
+                <div class="info">
+                  <p class="name">Lindsay Walton</p>
+                  <p>Font-end Developer</p>
+                </div>
+              </div>
+              <div class="invite">
+                <i class="fa-solid fa-plus"></i>
+                <p class="name">invite</p>
+              </div>
+            </div>
+
+            <!-- Second person -->
+            <div class="team">
+              <div class="profile">
+                <img src="./Courtney.jpg" alt="Courtney Henry" class="img" />
+                <div class="info">
+                  <p class="name">Courtney Henry</p>
+                  <p>Designer</p>
+                </div>
+              </div>
+              <div class="invite">
+                <i class="fa-solid fa-plus"></i>
+                <p class="name">invite</p>
+              </div>
+            </div>
+
+            <!-- Third person -->
+            <div class="team">
+              <div class="profile">
+                <img src="./Tom.jpg" alt="Tom Cook" class="img" />
+                <div class="info">
+                  <p class="name">Tom Cook</p>
+                  <p>Director of Product</p>
+                </div>
+              </div>
+              <div class="invite">
+                <i class="fa-solid fa-plus"></i>
+                <p class="name">invite</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
