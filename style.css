@@ -30,6 +30,7 @@ body {
   align-items: center;
   justify-content: center;
   row-gap: 1.5rem;
+  padding: 1.5rem;
 }
 
 .header {
@@ -116,6 +117,11 @@ body {
   align-items: center;
 }
 
+.team-text {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
 .profile {
   width: 100%;
   height: auto;
@@ -151,4 +157,19 @@ body {
 
 .invite i {
   color: var(--color-grayPrimary);
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
 }
